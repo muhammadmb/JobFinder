@@ -1,2 +1,2 @@
 # JopFinder
-Responsive single web application by react
+Responsive single page web application by react
