@@ -10,13 +10,11 @@
 }
 
 .main .list{
+    margin-top: 20px;
     list-style: none;
+    text-align: left;
     float: left;
     width: 33.33%;
-    text-align: left;
-}
-.main .list .header{
-    margin: 25px 0;
 }
 
 .main hr{
@@ -40,4 +38,40 @@
 .main a:hover{
     color: #EEE;
     text-decoration: none;
+}
+
+
+@media (max-width: 767px){ /* phone screen */
+
+    .main {
+        height: 600px;
+    }
+    
+    .main .header{
+        text-align: left;
+        margin: 20px 0 10px -3%;
+        float: none;
+    }
+
+    .main .list{
+        width: 100%;
+        margin: 0;
+    }
+
+    .socialMedia > div,
+    .socialMedia .icons
+    {
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){ /* small screen */
+
+    .socialMedia .icons{
+        width: 25%;
+    }
+
 }

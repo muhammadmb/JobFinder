@@ -1,4 +1,12 @@
-.brand{
+.navbar > button{
+    outline: none;
+}
+
+.navbar > button:hover{
+    background-color: #999;
+}
+
+.navbar .brand{
     color: #EEE;
     font-size: 32px;
     font-weight: 600;

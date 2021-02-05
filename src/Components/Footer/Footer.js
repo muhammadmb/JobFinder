@@ -27,7 +27,7 @@ const Footer = () => {
 
                 <ul className = "list">
                     <h4 className="header">Contacts</h4>
-                    <li><MailOutlineIcon/> support@mobirise.com</li>
+                    <li><MailOutlineIcon/> support@JF.com</li>
                     <li><PhoneIcon/> +1 (0) 000 0000 001</li>
                     <li><PrintIcon/> +1 (0) 000 0000 002</li>
                 </ul>
