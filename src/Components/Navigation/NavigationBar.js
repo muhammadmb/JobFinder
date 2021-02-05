@@ -22,29 +22,29 @@ const NavigationBar = () => {
 
                     <div className="collapse navbar-collapse" id="navbarContent">
 
-                        <a className="navbar-brand brand" href="#">JF</a>
+                        <Link className="navbar-brand brand" to="/">JF</Link>
 
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link" href="#home"> <HomeIcon/> Home</Link>
+                            <Link className="nav-link" to="/"> <HomeIcon/> Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#home"> <SearchIcon fontSize="small"/> Offers</Link>
+                            <Link className="nav-link" to = "/offers"> <SearchIcon fontSize="small"/> Offers</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#home"> <ContactSupportOutlinedIcon fontSize="small"/> About</Link>
+                            <Link className="nav-link" to = "/about"> <ContactSupportOutlinedIcon fontSize="small"/> About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#home"> <RecentActorsOutlinedIcon fontSize="small"/> Contact</Link>
+                            <Link className="nav-link" to = "/contact"> <RecentActorsOutlinedIcon fontSize="small"/> Contact</Link>
                         </li>
 
                         </ul>
                         <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link" href="#home"> <AccountCircleOutlinedIcon fontSize="small"/> Login</Link>
+                            <Link className="nav-link" to="/login"> <AccountCircleOutlinedIcon fontSize="small"/> Login</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#home"> <PersonAddOutlinedIcon fontSize="small"/> SignUp</Link>
+                            <Link className="nav-link" to = "/signup"> <PersonAddOutlinedIcon fontSize="small"/> SignUp</Link>
                         </li>
                         </ul>
 

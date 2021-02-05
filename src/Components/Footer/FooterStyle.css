@@ -1,0 +1,43 @@
+.main{
+    width: 100%;
+    height: 270px;
+    color: #EEE;
+    padding: 10px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main .list{
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    text-align: left;
+}
+.main .list .header{
+    margin: 25px 0;
+}
+
+.main hr{
+    margin: 20px 0;
+    border: none;
+    background-color: #999;
+    height: 1px;
+}
+
+.socialMedia > div{
+    float: left;   
+}
+.socialMedia .icons{
+    float: right;
+    width: 20%;
+}
+
+.main a{
+    color: #999;
+}
+.main a:hover{
+    color: #EEE;
+    text-decoration: none;
+}

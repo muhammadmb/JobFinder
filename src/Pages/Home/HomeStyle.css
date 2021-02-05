@@ -1,0 +1,28 @@
+.home{
+    height: 700px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home .container > p{
+    color: #EEE;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 170px 0 25px 0;
+}
+
+.home .container .ButtonLink > button{
+    color:  #edaf28;
+    border: 1px solid #edaf28;
+    background-color: rgba(38, 51, 39, 0.4);
+    padding: 10px;
+    outline: none;
+    font-weight: 700;
+}
+.home .container .ButtonLink >button:hover{
+    color: #EEE;
+    background-color:  #edaf28;
+}
