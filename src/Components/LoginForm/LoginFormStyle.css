@@ -20,7 +20,7 @@
     padding: 20px;
     margin-top: 8%;
     background: rgba(38, 51, 39, 0.4);
-    width: 30%;
+    width: 40%;
     float: right;
 }
 .login .loginForm h3{
@@ -57,4 +57,47 @@
 .login .loginForm  a:hover{
     color: #444;
     text-decoration: none;
+}
+
+@media (max-width: 767px){ /* phone screen */
+
+
+    .login{
+        height: 550px;
+    }
+
+    .login .message p{
+        float: none;
+        width: 100%;
+        margin: auto;
+        font-size: 27px;
+    }
+
+    .login .loginForm{
+        padding: 20px;
+        margin: 10% auto;
+        width: 90%;
+        float: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){ /* small screen */
+
+    .login{
+        height: 550px;
+    }
+
+    .login .message p{
+        font-size: 27px;
+        width: 30%;
+    }
+
+    .login .loginForm{
+        padding: 20px;
+        width: 60%;
+        float: right;
+    }
+
+
 }
