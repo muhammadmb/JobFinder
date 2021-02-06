@@ -22,7 +22,7 @@ const LoginForm =()=>{
                     <input type = "password" placeholder = "Password" />
                     <a href = "#">Forgote password?</a>
                     <button className="btn btn-success" type = "button"> LOGIN </button>
-                    <Link to= "signup">Don't have an account? Signup Now</Link>
+                    <p>Don't have an account? <Link to= "signup">Signup Now</Link></p>
 
                 </div>
                 <div className="Clear"></div>

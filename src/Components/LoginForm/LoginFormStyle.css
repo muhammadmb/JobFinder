@@ -20,7 +20,7 @@
     padding: 20px;
     margin-top: 8%;
     background: rgba(38, 51, 39, 0.4);
-    width: 40%;
+    width: 34%;
     float: right;
 }
 .login .loginForm h3{
@@ -51,9 +51,17 @@
     margin: 4% auto;
 }
 
-.login .loginForm  a{
+.login .loginForm  a,
+.login .loginForm p
+{
+    font-weight: 600;
     color: #EEE;
 }
+
+.login .loginForm  a{
+    text-decoration: underline;
+}
+
 .login .loginForm  a:hover{
     color: #444;
     text-decoration: none;

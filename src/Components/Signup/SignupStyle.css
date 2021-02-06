@@ -1,0 +1,106 @@
+.SignupMain{
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.SignupMain .signupForm{
+    width: 50%;
+    margin: 5% 0;
+    float: left;
+}
+
+.SignupMain .signupForm input{
+    display: block;
+    outline: none;
+    background: none;
+    border: none;
+    color: #EEE;
+    width: 50%;
+    border-bottom: 1px solid #EEE;
+    padding: 2%;
+    margin: 3% auto;
+}
+
+.SignupMain .signupForm > input::placeholder{
+    color: #EEE;
+}
+
+.SignupMain .signupForm button{
+    margin: 4% auto;
+}
+
+.SignupMain .signupForm p,
+.SignupMain .signupForm p .link{
+    color: #EEE;
+    font-weight: 600;
+}
+.SignupMain .signupForm p .link{
+    text-decoration: underline;
+}
+.SignupMain .signupForm p .link:hover{
+    color: #565A57;
+    text-decoration: none;
+}
+
+.SignupMain .message{
+    float: right;
+    width: 50%;
+}
+
+.SignupMain .message h3,
+.SignupMain .message p{
+    font-style: italic;
+    font-family: cursive;
+}
+
+.SignupMain .message h3{
+    color: #EEE;
+    margin: 20% auto 0;
+    font-size: 42px;
+    font-weight: 700;
+    
+}
+.SignupMain .message p{
+    color: #565A57;
+    margin-top: 4%;
+    font-size: 22px;
+}
+
+@media (max-width: 767px){ /* phone screen */
+
+    .SignupMain{
+        height: 500px;
+    }
+
+    .SignupMain .signupForm {
+        width: 100%;
+    }
+
+    .SignupMain .signupForm > input{
+        width: 80%;
+    }
+
+    .SignupMain .message{
+        visibility: hidden;
+        width: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){ /* small screen */
+
+    .SignupMain{
+        height: 500px;
+    }
+    
+    .SignupMain .signupForm > input{
+        width: 90%;
+    }
+
+    .SignupMain .message{
+        width: 45%;
+    }
+
+}
