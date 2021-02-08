@@ -1,0 +1,21 @@
+.nav-tabs .nav-item {
+    color: #739e7e;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-tabs .nav-item:first-of-type
+{
+    margin-left: 10%;
+}
+.nav-tabs .nav-item:hover{
+    color: #1d3f25;
+}
+
+@media (max-width: 767px){ /* phone screen */
+    .nav-tabs .nav-item
+    {
+        margin-left: 0;
+        font-size: 17px;
+        padding: 8px;
+    }
+}

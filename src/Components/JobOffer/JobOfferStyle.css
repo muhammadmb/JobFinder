@@ -1,0 +1,59 @@
+.jobOfferComponent{
+    border: 1px solid #999;
+    width: 75%;
+    margin: 1% auto;
+    padding: 3%;
+    text-align: left;
+}
+.jobOfferComponent:hover{
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.jobOfferComponent h3 .link{
+    color: #246e37;
+}
+
+.jobOfferComponent > p{
+    line-height: 1.4;
+    margin: 2% 2%;
+    color: #333;
+}
+
+.jobOfferComponent .skills{
+    margin: 2%;
+}
+
+.jobOfferComponent .skills .badge{
+    margin: 0 .4%;
+    padding: 1%;
+}
+.jobOfferComponent .skills .badge:hover{
+    background-color: #52595e;
+}
+
+.jobOfferComponent .country{
+    margin: 3% 2% 0;
+    color: #444;
+    font-weight: 600;
+}
+
+@media (max-width: 767px){ /* phone screen */
+
+    .jobOfferComponent{
+        width: 95%;
+    }
+
+    .jobOfferComponent h3 .link{
+        font-size: 25px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px){ /* small screen */
+
+    .jobOfferComponent{
+        width: 90%;
+    }
+
+
+}
