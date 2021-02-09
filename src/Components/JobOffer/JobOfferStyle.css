@@ -20,17 +20,6 @@
     color: #333;
 }
 
-.jobOfferComponent .skills{
-    margin: 2%;
-}
-
-.jobOfferComponent .skills .badge{
-    margin: 0 .4%;
-    padding: 1%;
-}
-.jobOfferComponent .skills .badge:hover{
-    background-color: #52595e;
-}
 
 .jobOfferComponent .country{
     margin: 3% 2% 0;

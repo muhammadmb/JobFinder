@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.skills{
+  margin: 2%;
+}
+
+.skills .badge{
+  margin: 0 .4%;
+  padding: 1%;
+  color: aliceblue;
+  cursor: pointer;
+}
+.skills .badge:hover{
+  background-color: #52595e;
+}

@@ -1,0 +1,69 @@
+.offerDetails {
+    margin: 4% 15%;
+    text-align: left;
+    width: 70%;
+    border: 1px #777 solid;
+    padding: 5%;
+}
+
+.offerDetails > h3{
+    color:#1d3f25;
+}
+.offerDetails hr{
+    background-color: #1d3f25;
+    width: 80%;
+    margin: 3% auto;
+}
+.offerDetails span{
+    margin: 1%;
+    font-weight: 600;
+    color: #555;
+}
+.offerDetails p{
+    line-height: 1.7;
+    width: 90%;
+    margin: 2% 0 2% 1%;
+    color: #444;
+}
+.offerDetails ul li{
+    color: #444;
+    font-size: 16px;
+    margin: .5%;
+}
+
+.offerDetails .skills{
+    margin: 2% 0;
+}
+
+.offerDetails .skills span{
+    font-size: 14px;
+}
+.offerDetails textarea{
+    margin: 1.5% 0;
+    width: 100%;
+    padding: 1.5%;
+    height: 200px;
+    outline: 1px #1d3f25 solid;
+}
+
+.offerDetails .btn{
+    width: 20%;
+    margin: 1% 38%;
+}
+
+@media (max-width: 767px){ /* phone screen */
+
+    
+}
+@media (max-width: 991px){ /* small screen */
+
+
+    .offerDetails {
+        margin: 4% 1%;
+        width: 100%;
+    }
+    .offerDetails p{
+        width: 100%;
+    }
+
+}
