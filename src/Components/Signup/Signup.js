@@ -18,7 +18,7 @@ const Signup = () => {
                 </div>
 
                 <div className="message">
-                    <h3>Glade to see YOU.</h3>
+                    <h3>Start You Career</h3>
                     <p>Get Your oppertunity now with +10000 job offer around the world every day.</p>
                 </div>
                 <div className="Clean"></div>

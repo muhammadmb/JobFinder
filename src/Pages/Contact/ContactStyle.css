@@ -1,0 +1,87 @@
+.ContactMain{
+    height: 800px;
+}
+
+.ContactMain .Background{
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ContactMain .Contact{
+    background-color: rgba(39, 40, 41, 0.7);
+    height: 400px;
+}
+
+.ContactMain h3{
+    padding: 2%;
+    float: left;
+    width: 100%;
+    margin-top: 8%;
+    color: #EEE;
+    font-size: 60px;
+    font-weight: 600;
+}
+.ContactMain p {
+    color: #EEE;
+    font-size: 22px;
+    padding: 2%;
+}
+
+.ContactMain .ContactBox .TalkToSales,
+.ContactMain .ContactBox .Conversation
+{
+    float: left;
+    width: 48%;
+    margin: 5% 1%;
+    background-color: #EEE;
+    height: 400px;
+    border-radius: 4%;
+}
+
+
+.ContactMain .ContactBox .TalkToSales .icon,
+.ContactMain .ContactBox .Conversation .icon{
+    padding: 6% 0 0 0;
+    color: #051829;
+}
+
+.ContactMain .ContactBox .TalkToSales h4,
+.ContactMain .ContactBox .Conversation h4{
+    padding: 3%;
+    font-size: 17px;
+}
+
+.ContactMain .ContactBox .TalkToSales p,
+.ContactMain .ContactBox .Conversation p{
+    font-size: 15px;
+    padding: 2% 8%;
+    line-height: 1.7;
+    color: black;
+}
+
+.ContactMain .ContactBox .TalkToSales span{
+    color: #095368;
+    display: block;
+    padding: .5%;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){ /* small screen */
+    .ContactMain{
+        height: 1000px;
+    }
+    
+    
+    .ContactMain .ContactBox .TalkToSales,
+    .ContactMain .ContactBox .Conversation{
+        float: none;
+        width: 100%;
+        margin: 5% 1%;
+        background-color: #EEE;
+        height: 350px;
+        border-radius: 4%;
+    }
+}

@@ -10,6 +10,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import {Link} from 'react-router-dom';
 
 
 const Footer = () => {
@@ -34,9 +35,9 @@ const Footer = () => {
 
                 <ul className = "list">
                     <h4 className="header">Links</h4>
-                    <li><a className="Link" href="#"> JF Blog</a></li>
-                    <li><a className="Link" href="#"> About Us</a></li>
-                    <li><a className="Link" href="#"> Support</a></li>
+                    <li><Link className="Link" to="/Blog"> JF Blog</Link></li>
+                    <li><Link className="Link" to="/about"> About Us</Link></li>
+                    <li><Link className="Link" to="/contact"> Support</Link></li>
                 </ul>
 
                 <div className="Clear"></div>
