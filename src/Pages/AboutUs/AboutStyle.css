@@ -1,7 +1,225 @@
-.AboutMain{
-    height: 350px;
+.aboutMain {
+    position: relative;
+    overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  
+  .header__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 16%;
+    transform: skewY(-6deg);
+    transform-origin: left;
+  }
+  
+  .aboutMain h3 {
+    margin: 0;
+    padding: 100px 0 20px;
+    font-size: 40px;
+  }
+  
+  .aboutMain h3,
+  .aboutMain p
+  {
+    position: relative;
+    color: white;
+  }
+
+  .aboutMain p
+{
+    width: 70%;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.aboutMain .partation{
+    margin-top: 10%;
+}
+
+.aboutMain .Headers{
+    padding: 0 0 0;
+    color: #000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.aboutMain .HR{
+    background-color: #089499;
+    width: 7%;
+    height: 3px;
+    margin: 0 auto 3%;
+}
+
+.aboutMain .ourServices .service{
+    float: left;
+    padding: 2%;
+    border: 1px solid #d0d5db;
+    width: 30%;
+    margin: 1.5%;
+}
+.aboutMain .ourServices .service img{
+    margin: 3% 0;
+}
+
+.aboutMain .ourServices .service p,
+.partation .HeaderParagraph{
+    color: #888;
+    width: 90%;
+}
+
+.aboutMain .Clients-img{
+    width: 10%;
+    margin: 2%;
+    opacity: .8;
+}
+
+.aboutMain .testimonialsModels{
+    float: left;
+    width: 28%;
+    background-color: #EEE;
+    margin: 3.5% 2.5% 0;
+    border-radius: 40px;
+}
+
+.aboutMain .testimonialsModels .testimonialsParagraph{
+    width: 90%;
+    line-height: 1.7;
+    padding: 7%;
+    color: #777;
+}
+
+.aboutMain .testimonialfooter{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 3% 0 0;
+    padding: 4%;
+    background-color: #DDD;
+    min-height: 120px;
+}
+
+.aboutMain .testimonialsModels .testimonialfooter h4{
+    font-size: 20px;
+    color: #000;
+}
+.aboutMain .testimonialsModels .testimonialfooter p{
+    color: #111;
+    font-weight: 500;
+}
+
+.aboutMain .AboutFooter{
+    background-color: #089499;
+    margin: 3% 0 0 0;
+    padding: 3% 0 9.5%;
+}
+
+.aboutMain .AboutFooter h3{
+    margin: -7% 0 0 0;
+    text-align: left;
+}
+.aboutMain .AboutFooter p{
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+
+.aboutMain .AboutFooter button{
+    width: 15%;
+    outline: none;
+    border: 3px solid #DDD;
+    background-color: #DDD;
+    padding: 1%;
+    color: #089499;
+}
+.aboutMain .AboutFooter button:hover{
+    color: #EEE;
+    background-color: #089499;
+}
+
+
+
+@media (max-width: 767px){ /* phone screen */
+ 
+    .aboutMain .header__bg {
+        height: 11.5%;
+    }
+  
+    .aboutMain .ourServices .service{
+        width: 100%;
+        float: none;
+    }
+    
+    .aboutMain .testimonialsModels{
+    float: none;
+    width: 100%;
+    }
+    .aboutMain .AboutFooter h3{
+        text-align: center;
+    }
+    .aboutMain .AboutFooter p{
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .aboutMain .AboutFooter button{
+        width: 30%;
+        padding: 1%;
+        margin-top: 4%;
+    }
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){ /* small screen */
+
+    
+    .aboutMain .header__bg {
+        height: 14%;
+    }
+        
+    .aboutMain .ourServices .service{
+        float: none;
+        padding: 2%;
+        width: 100%;
+        margin: 2.5%;
+    }
+    .aboutMain .ourServices .service img{
+        float: left;
+        margin: 3%;
+        width: 12%;
+    }
+   
+    .aboutMain .ourServices .service p,
+    .aboutMain .partation .HeaderParagraph{
+        color: #888;
+        width: 85%;
+    }
+
+        
+    .aboutMain .testimonialsModels{
+        margin: 3.5% 2.5% 0;
+        width: 100%;
+    }
+
+    .aboutMain .testimonialsModels .testimonialsParagraph{
+        width: 65%;
+        text-align: left;
+        padding: 4%;
+        float: left;
+    }
+
+    .aboutMain .testimonialfooter{
+        margin-top: 0%;
+        width: 33%;
+        border-radius: 40px;
+        float: right;
+        background-color: #DDD;
+        height: 200px;
+    }
 }
