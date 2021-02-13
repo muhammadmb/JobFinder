@@ -1,0 +1,47 @@
+.Form{
+    padding: 2% 0%;
+}
+
+.Form .inputs{
+    float: right;
+    width: 49%;
+}
+
+.Form .inputs input:first-of-type{
+    margin-top: 7%;
+}
+
+.Form .inputs input,
+.Form .inputs textarea{
+    width: 80%;
+    margin: 5% 0 0 -10%;
+    padding: 1%;
+    border-radius: 20px;
+    outline: none;
+    background-color: #EEE;
+    border: none;
+}
+
+.Form .inputs input:placeholder-shown,
+.Form .inputs textarea:placeholder-shown{
+    padding-left: 2.5%;
+}
+
+.Form .inputs textarea{
+    height: 150px;
+}
+
+.Form .FormIcon{
+    font-size: 500px;
+    margin-top: -5%;
+    color: #54d3f0;
+}
+.Form button{
+    display: inline-block;
+    width: 25%;
+    padding: 1.3%;
+    background-color: #54d3f0;
+    border: 1px solid #EEE;
+    font-weight: 500;
+    margin-top: 3%;
+}

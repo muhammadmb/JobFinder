@@ -1,5 +1,9 @@
 .ContactMain{
-    height: 800px;
+    min-height: 800px;
+}
+
+.ContactMainWithWithVisible{
+    height: 1400px;
 }
 
 .ContactMain .Background{

@@ -98,9 +98,6 @@ const About = () =>{
                 <div className="Clear"></div>
 
             </div>
-
-            
-
         </div>
 
         <div className="AboutFooter">
@@ -110,7 +107,7 @@ const About = () =>{
                 <Link to="/contact#"><button>Contact Us</button></Link>
             </div>
         </div>
-
+        
     </div>
     );
 }
