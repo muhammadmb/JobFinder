@@ -73,11 +73,13 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px){ /* small screen */
+@media (max-width: 768px){ /* phone screen */
     .ContactMain{
         height: 1000px;
     }
-    
+    .ContactMainWithWithVisible{
+        height: 1750px;
+    }
     
     .ContactMain .ContactBox .TalkToSales,
     .ContactMain .ContactBox .Conversation{
@@ -87,5 +89,10 @@
         background-color: #EEE;
         height: 350px;
         border-radius: 4%;
+    }
+}
+@media (max-width: 991px) and (min-width: 767px){
+    .ContactMainWithWithVisible{
+        height: 1250px;
     }
 }

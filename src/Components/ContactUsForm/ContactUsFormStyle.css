@@ -45,3 +45,52 @@
     font-weight: 500;
     margin-top: 3%;
 }
+@media (max-width: 768px){ /* phone screen */
+        
+    .Form .inputs{
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+
+    .Form .inputs input:first-of-type{
+        margin-top: 7%;
+    }
+
+    .Form .inputs input,
+    .Form .inputs textarea{
+        width: 90%;
+        margin: 5% 0 0;
+    }
+
+    .Form .FormIcon{
+        font-size: 150px;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 767px),
+{
+    
+    .Form .FormIcon{
+        font-size: 250px;
+        margin-top: 5%;
+    }
+
+    .Form .inputs{
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px){ /* medium screen */
+
+    .Form .FormIcon{
+        font-size: 350px;
+        margin-top: 5%;
+    }
+
+    .Form .inputs{
+        width: 60%;
+    }
+
+}
