@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 const About = () =>{
     return(
 
-    <div className="aboutMain">
+    <div className="aboutMain BackgroundCover">
         <div className="header__bg" style={{backgroundImage: `url(${Background})`}}></div>
         <div className="container">
             <h3>About JF</h3>

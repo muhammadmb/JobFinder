@@ -5,7 +5,7 @@ import './HomeStyle.css';
 
 const Home =() =>{
     return(
-        <div className="home" style={{backgroundImage: `url(${background})`}}>
+        <div className="home BackgroundCover" style={{backgroundImage: `url(${background})`}}>
             <div className="container">
                 <p>Your New Beginning Starts Here.</p>
                 <Link className="ButtonLink" to = "/Offers"><button className="rounded">Apply For A Job Now</button></Link>

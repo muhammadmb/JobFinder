@@ -8,10 +8,6 @@
 
 .ContactMain .Background{
     height: 400px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .ContactMain .Contact{

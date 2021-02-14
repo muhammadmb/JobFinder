@@ -18,7 +18,7 @@ const Footer = () => {
     var CurrentYear = new Date().getFullYear();
 
     return (
-        <footer className="footer main" style ={{backgroundImage: `url(${background})`}}>
+        <footer className="footer main BackgroundCover" style ={{backgroundImage: `url(${background})`}}>
             <div className="container" >
                 <ul className = "list">
                     <h4 className="header">Address</h4>

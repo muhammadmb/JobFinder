@@ -12,7 +12,7 @@ const Contact = () => {
     return (
 
         <div className={`${visibility? "ContactMainWithWithVisible ContactMain" : "ContactMain"}`}>
-            <div className="Background" style={{ backgroundImage: `url(${Background})` }}>
+            <div className="Background BackgroundCover" style={{ backgroundImage: `url(${Background})` }}>
                 <div className="Contact">
                     <div className="container">
                         <h3>Get in touch</h3>
