@@ -11,6 +11,7 @@ import OfferPage from './Pages/OfferPage/OfferPage';
 import About from './Pages/AboutUs/About';
 import Contact from './Pages/Contact/Contact';
 import NotFound from './Pages/NotFoundPage/NotFound';
+import PostJob from './Pages/PostJob/PostJob';
 
 const MainPages = () => {
 
@@ -27,6 +28,7 @@ const MainPages = () => {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/login" component={LoginForm}/>
         <Route exact path="/signup" component={Signup} />
+        <Route exact path="/PostJob" component={PostJob} />
         <Route path="*" component={NotFound} />
       </Switch>
       <Footer />

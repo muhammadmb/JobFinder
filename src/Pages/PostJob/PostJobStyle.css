@@ -1,0 +1,96 @@
+.postJobDiv{
+    background-color: #EEE;
+    margin: 3%;
+    padding: 2%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.postJobDiv h2{
+    color: rgb(0, 122, 131);
+}
+.postJobDiv .form-floating input,
+.postJobDiv .form-floating .form-select{
+    width: 30%;
+    margin: 1%;
+    display: inline;
+    float: left;
+}
+
+.postJobDiv .form-floating label{
+    margin: 1%;
+}
+
+.postJobDiv .descTextArea{
+    width: 94%;
+    float: left;
+    margin: 1%;
+    outline: none;
+    height: 240px;
+    padding: 1%;
+}
+
+.postJobDiv .postJobDiv .PostButton{
+    margin: 1% auto;
+    padding: .5% 2%;
+    outline: none;
+    border: 1px solid rgb(0, 122, 131);
+    background: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.postJobDiv .PostButton:hover{
+    color: #EEE;
+    background-color: rgb(0, 122, 131);
+}
+
+.SkillsCheckList h5{
+    text-align: left;
+    padding: 2%;
+    color: rgb(0, 122, 131);
+}
+
+.SkillsCheckList button{
+    margin: 1%;
+    float: left;
+    outline: none;
+    border-radius: 40px;
+    padding: .5% 1.5%;
+    font-weight: 700;
+}
+
+.SkillsCheckList .unChicked{
+    color: #050038;
+    border: 1px solid #050038;
+    background: none;
+}
+.SkillsCheckList .unChicked:hover,
+.SkillsCheckList .checked
+{
+    border: 1px solid #050038;
+    background-color: #050038;
+    color: #EEE;
+}
+
+.SkillsCheckList > button .CheckIcon{
+    margin: 0 0 0 10px;
+    font-size: 22px;
+}
+
+@media (max-width: 991px){ /* small and phone screen */
+    .postJobDiv .form-floating input,
+    .postJobDiv .form-floating .form-select{
+    width: 90%;
+    float: none;
+    margin: 3% auto;
+    }
+    .postJobDiv .form-floating label{
+        margin: 3% 5%;
+    }    
+    
+    .postJobDiv .descTextArea{
+        width: 100%;
+        float: none;
+        margin: 5% auto;
+    }
+}
