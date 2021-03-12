@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
 .NotFoundMain{
     background-color: #07383f;
-    min-height: 550px;
+    height: 100vh;
 }
 
 .NotFoundMain h1{

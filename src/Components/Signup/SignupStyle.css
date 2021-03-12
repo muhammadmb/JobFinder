@@ -1,5 +1,5 @@
 .SignupMain{
-    height: 700px;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,10 +70,6 @@
 
 @media (max-width: 767px){ /* phone screen */
 
-    .SignupMain{
-        height: 500px;
-    }
-
     .SignupMain .signupForm {
         width: 100%;
     }
@@ -83,16 +79,12 @@
     }
 
     .SignupMain .message{
-        visibility: hidden;
+        display: none;
         width: 0;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px){ /* small screen */
-
-    .SignupMain{
-        height: 500px;
-    }
     
     .SignupMain .signupForm > input{
         width: 90%;

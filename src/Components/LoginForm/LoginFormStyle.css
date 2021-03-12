@@ -1,5 +1,5 @@
 .login{
-    height: 700px;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,11 +69,6 @@
 
 @media (max-width: 767px){ /* phone screen */
 
-
-    .login{
-        height: 550px;
-    }
-
     .login .message p{
         float: none;
         width: 100%;
@@ -91,10 +86,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px){ /* small screen */
-
-    .login{
-        height: 550px;
-    }
 
     .login .message p{
         font-size: 27px;

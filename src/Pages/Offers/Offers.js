@@ -2,9 +2,9 @@ import React from 'react';
 import JobOffer from '../../Components/JobOffer/JobOffer';
 import './OffersStyle.css';
 
-const Offers = () =>{
+const Offers = () => {
 
-    return(
+    return (
         <div className="OffersMain">
             <div className="container">
                 <nav>
@@ -28,13 +28,13 @@ const Offers = () =>{
                         <JobOffer />
                     </div>
                     <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                        <JobOffer />    
+                        <JobOffer />
                         <JobOffer />
                         <JobOffer />
                         <JobOffer />
                     </div>
                 </div>
-            </div>        
+            </div>
         </div>
 
     );
